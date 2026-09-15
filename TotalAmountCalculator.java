@@ -52,31 +52,6 @@ public class TotalAmountCalculator {
     public static void main(String[] args) {
         System.out.println("=== Total Amount Calculator ===\n");
         
-        // Example 1: Basic calculation with double price
-        double price1 = 49.99;
-        int quantity1 = 5;
-        double total1 = calculateTotalAmount(price1, quantity1);
-        System.out.println("Example 1 - Decimal Price:");
-        System.out.println("Price: $" + price1 + ", Quantity: " + quantity1);
-        System.out.println("Total Amount: $" + String.format("%.2f", total1));
-        
-        // Example 2: Basic calculation with integer price
-        int price2 = 100;
-        int quantity2 = 3;
-        int total2 = calculateTotalAmount(price2, quantity2);
-        System.out.println("\nExample 2 - Integer Price:");
-        System.out.println("Price: $" + price2 + ", Quantity: " + quantity2);
-        System.out.println("Total Amount: $" + total2);
-        
-        // Example 3: Calculation with discount
-        double price3 = 75.50;
-        int quantity3 = 4;
-        double discountPercentage = 10;
-        double total3 = calculateTotalAmountWithDiscount(price3, quantity3, discountPercentage);
-        System.out.println("\nExample 3 - With Discount:");
-        System.out.println("Price: $" + price3 + ", Quantity: " + quantity3 + ", Discount: " + discountPercentage + "%");
-        System.out.println("Total Amount (after discount): $" + String.format("%.2f", total3));
-        
         // Example 4: Interactive input
         System.out.println("\n=== Interactive Calculation ===");
         java.util.Scanner scanner = new java.util.Scanner(System.in);
